@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode build products and per-user settings
+.derivedData/
+DerivedData/
+build/
+**/xcuserdata/
+*.xcuserstate
+*.ipa
+*.dSYM/
+
+# Local configuration and signing material
+.env
+.env.*
+!.env.example
+*.local.xcconfig
+*.p12
+*.mobileprovision
+*.pem
+*.key
+
+# Generated previews, personal documents, and local design logs
+outputs/
+.hallmark/

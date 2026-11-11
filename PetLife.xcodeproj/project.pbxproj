@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* PetLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* PetLifeApp.swift */; };
+		A00000000000000000000002 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* RootTabView.swift */; };
+		A00000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* Models.swift */; };
+		A00000000000000000000004 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* Theme.swift */; };
+		A00000000000000000000005 /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* HomeDashboardView.swift */; };
+		A00000000000000000000006 /* AlbumTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000016 /* AlbumTreeView.swift */; };
+		A00000000000000000000007 /* VideoUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000017 /* VideoUploadView.swift */; };
+		A00000000000000000000008 /* PetMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000018 /* PetMatchView.swift */; };
+		A00000000000000000000009 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000019 /* AppState.swift */; };
+		A0000000000000000000000A /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001A /* AuthenticationView.swift */; };
+		A0000000000000000000000B /* ProfileHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001B /* ProfileHubView.swift */; };
+		A0000000000000000000000C /* PetArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001C /* PetArtwork.swift */; };
+		A0000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001D /* Assets.xcassets */; };
+		A0000000000000000000000E /* PetServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000001E /* PetServicesView.swift */; };
+		B00000000000000000000001 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0000000000000000000000F /* PetLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000011 /* PetLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLifeApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A00000000000000000000014 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A00000000000000000000015 /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
+		A00000000000000000000016 /* AlbumTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTreeView.swift; sourceTree = "<group>"; };
+		A00000000000000000000017 /* VideoUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUploadView.swift; sourceTree = "<group>"; };
+		A00000000000000000000018 /* PetMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMatchView.swift; sourceTree = "<group>"; };
+		A00000000000000000000019 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A0000000000000000000001A /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		A0000000000000000000001B /* ProfileHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHubView.swift; sourceTree = "<group>"; };
+		A0000000000000000000001C /* PetArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetArtwork.swift; sourceTree = "<group>"; };
+		A0000000000000000000001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0000000000000000000001E /* PetServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetServicesView.swift; sourceTree = "<group>"; };
+		E844A1282F87CCE5002EC1F3 /* PetLife.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetLife.entitlements; sourceTree = "<group>"; };
+		B00000000000000000000002 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000030 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000031 /* PetLife */,
+				A00000000000000000000032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000031 /* PetLife */ = {
+			isa = PBXGroup;
+			children = (
+				E844A1282F87CCE5002EC1F3 /* PetLife.entitlements */,
+				A00000000000000000000033 /* App */,
+				A00000000000000000000034 /* Features */,
+				A0000000000000000000003C /* Resources */,
+				A00000000000000000000035 /* Shared */,
+			);
+			path = PetLife;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000F /* PetLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000033 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000011 /* PetLifeApp.swift */,
+				A00000000000000000000012 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000034 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000036 /* Home */,
+				A00000000000000000000037 /* AlbumTree */,
+				A00000000000000000000038 /* Video */,
+				A00000000000000000000039 /* Match */,
+				A0000000000000000000003D /* Services */,
+				A0000000000000000000003A /* Auth */,
+				A0000000000000000000003B /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000035 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000013 /* Models.swift */,
+                B00000000000000000000002 /* Localization.swift */,
+				A00000000000000000000019 /* AppState.swift */,
+				A00000000000000000000014 /* Theme.swift */,
+				A0000000000000000000001C /* PetArtwork.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000036 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000015 /* HomeDashboardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000037 /* AlbumTree */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000016 /* AlbumTreeView.swift */,
+			);
+			path = AlbumTree;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000038 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000017 /* VideoUploadView.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000039 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000018 /* PetMatchView.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000003D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000001E /* PetServicesView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000003A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000001A /* AuthenticationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000003B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000001B /* ProfileHubView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A0000000000000000000003C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000001D /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000040 /* PetLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000050 /* Build configuration list for PBXNativeTarget "PetLife" */;
+			buildPhases = (
+				A00000000000000000000041 /* Sources */,
+				A00000000000000000000020 /* Frameworks */,
+				A00000000000000000000042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetLife;
+			productName = PetLife;
+			productReference = A0000000000000000000000F /* PetLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A00000000000000000000040 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000061 /* Build configuration list for PBXProject "PetLife" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000030;
+			productRefGroup = A00000000000000000000032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000040 /* PetLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* PetLifeApp.swift in Sources */,
+				A00000000000000000000002 /* RootTabView.swift in Sources */,
+				A00000000000000000000003 /* Models.swift in Sources */,
+                B00000000000000000000001 /* Localization.swift in Sources */,
+				A00000000000000000000009 /* AppState.swift in Sources */,
+				A00000000000000000000004 /* Theme.swift in Sources */,
+				A00000000000000000000005 /* HomeDashboardView.swift in Sources */,
+				A00000000000000000000006 /* AlbumTreeView.swift in Sources */,
+				A00000000000000000000007 /* VideoUploadView.swift in Sources */,
+				A00000000000000000000008 /* PetMatchView.swift in Sources */,
+				A0000000000000000000000E /* PetServicesView.swift in Sources */,
+				A0000000000000000000000A /* AuthenticationView.swift in Sources */,
+				A0000000000000000000000B /* ProfileHubView.swift in Sources */,
+				A0000000000000000000000C /* PetArtwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PetLife/PetLife.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TT5FV2N478;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_SUPABASE_ANON_KEY = sb_publishable_4HroA9nz1E3jNP4YKmFotA_raibz0y4;
+				INFOPLIST_KEY_SUPABASE_MEDIA_BUCKET = petner;
+				INFOPLIST_KEY_SUPABASE_MEDIA_PUBLIC = NO;
+				INFOPLIST_KEY_SUPABASE_URL = "https://rgcndvamvnondxjzmxdl.supabase.co";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petlife.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PetLife/PetLife.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TT5FV2N478;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_SUPABASE_ANON_KEY = sb_publishable_4HroA9nz1E3jNP4YKmFotA_raibz0y4;
+				INFOPLIST_KEY_SUPABASE_MEDIA_BUCKET = petner;
+				INFOPLIST_KEY_SUPABASE_MEDIA_PUBLIC = NO;
+				INFOPLIST_KEY_SUPABASE_URL = "https://rgcndvamvnondxjzmxdl.supabase.co";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petlife.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000050 /* Build configuration list for PBXNativeTarget "PetLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000070 /* Debug */,
+				A00000000000000000000071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000061 /* Build configuration list for PBXProject "PetLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000070 /* Debug */,
+				A00000000000000000000071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000060 /* Project object */;
+}
